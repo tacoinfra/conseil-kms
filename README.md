@@ -2,7 +2,7 @@
 
 ## About 
 
-`kms-conseil` is a library which provides [ConseilJS](https://github.com/cryptonomic/conseiljs) `Signer` and `KeyStore` interfaces for working with keys stored in [AWS KMS]. This library acts as a binding between ConseilJS and AWS KMS for working with operations in [Tezos](https://tezos.com/). 
+`kms-conseil` is a library which provides [ConseilJS](https://github.com/cryptonomic/conseiljs) `Signer` and `KeyStore` interfaces for working with keys stored in [AWS KMS](https://aws.amazon.com/kms/). This library acts as a binding between ConseilJS and AWS KMS for working with operations in [Tezos](https://tezos.com/). 
 
 For more information on ConseilJS, see the [ConseilJS Documentation](https://cryptonomic.github.io/ConseilJS/#/).
 

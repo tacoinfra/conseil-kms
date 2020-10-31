@@ -20,7 +20,7 @@
   "author": "Blockscale LLC",
   "license": "MIT",
   "dependencies": {
-    "@tacoinfra/tezos-kms": "^1.0.0",
+    "@tacoinfra/tezos-kms": "^1.1.0",
     "@types/node": "^14.10.1",
     "conseiljs": "^5.0.4"
   },

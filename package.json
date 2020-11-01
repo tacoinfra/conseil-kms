@@ -20,9 +20,9 @@
   "author": "Blockscale LLC",
   "license": "MIT",
   "dependencies": {
-    "@tacoinfra/tezos-kms": "^1.1.0",
-    "@types/node": "^14.10.1",
-    "conseiljs": "^5.0.4"
+    "@tacoinfra/tezos-kms": "^1.1.1",
+    "@types/node": "^14.14.6",
+    "conseiljs": "^5.0.5"
   },
   "bugs": {
     "url": "https://github.com/tacoinfra/conseil-kms/issues"
@@ -31,13 +31,13 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^3.9.0",
     "@typescript-eslint/parser": "^3.9.0",
-    "eslint": "^7.6.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-import": "^2.22.0",
+    "eslint": "^7.12.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-mocha": "^8.0.0",
     "eslint-plugin-prettier": "^3.1.4",
-    "prettier": "^2.0.5",
-    "typescript": "^4.0.2"
+    "prettier": "^2.1.2",
+    "typescript": "^4.0.5"
   },
   "keywords": [
     "tezos",

@@ -25,7 +25,7 @@ export default class KmsSigner implements Signer {
     return this.kmsClient.signOperation(bytes)
   }
 
-  public async signOperationBase58(bytes: Buffer): Promise<Buffer> {
+  public async signOperationBase58(bytes: Buffer): Promise<string> {
     return this.kmsClient.signOperationBase58(bytes)
   }
 

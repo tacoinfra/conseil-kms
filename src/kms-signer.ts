@@ -25,6 +25,10 @@ export default class KmsSigner implements Signer {
     return this.kmsClient.signOperation(bytes)
   }
 
+  public async signOperationBase58(bytes: Buffer): Promise<string> {
+    return this.kmsClient.signOperationBase58(bytes)
+  }
+
   public signText(_message: string): Promise<string> {
     throw new Error('Unsupported: Cannot use `signText` in AwsKmsSigner')
   }
